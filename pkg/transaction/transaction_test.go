@@ -4,7 +4,8 @@ import (
 	"testing"
 )
 
-func TestTX_generateHash_Positive(t *testing.T) {
+func TestGenerateHash(t *testing.T) {
+	// positive test case
 	tx := &TX{
 		From:      "Alice",
 		To:        "Bob",
@@ -19,9 +20,8 @@ func TestTX_generateHash_Positive(t *testing.T) {
 	if expected != actual {
 		t.Errorf("Expected hash %s, got %s", expected, actual)
 	}
-}
 
-func TestTX_generateHash_Negative(t *testing.T) {
+	// negative test case
 	tx1 := &TX{
 		From:      "Alice",
 		To:        "Bob",
