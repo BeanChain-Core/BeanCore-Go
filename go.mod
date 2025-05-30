@@ -1,3 +1,3 @@
-module github.com/BeanChain-Core/BeanCore-Go
+module github.com/BeanChain-Core/BeanPack-Go
 
 go 1.24.2
