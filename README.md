@@ -1,2 +1,2 @@
-# BeanCore-Go
-A Go implementation of BeanCore (pack)
+# BeanPack-Go
+A Go implementation of BeanPack
